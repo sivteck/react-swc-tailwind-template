@@ -1,0 +1,37 @@
+{
+  "name": "minimal-react-template",
+  "version": "1.0.0",
+  "description": "Front-end for your web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec \"npm run build && python3 -m http.server 8001 --directory build\"",
+    "build": "babel src -d build && cp public/index.html build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivteck/minimal-react-template.git"
+  },
+  "author": "<Author Name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sivteck/minimal-react-template/issues"
+  },
+  "homepage": "https://github.com/sivteck/minimal-react-template#readme",
+  "nodemonConfig": {
+    "watch": [
+      "./"
+    ],
+    "ext": "js, css",
+    "ignore": [
+      "build"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "nodemon": "^1.19.4"
+  }
+}
