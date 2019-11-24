@@ -14,7 +14,7 @@ How to Use
 `npm install` in `./client` folder to install devDependencies (babel, nodemon)
 
 
+`npm start` for development. Outputs build artifacts to devBuild folder with development versions of React and nodemon triggers rebuild when `js`/`css` files are changed.
+
+
 `npm run build` in `./client` folder to output build artifacts to `./client/build` folder
-
-
-`npm start` in `./client` to serve build with python3 http.server

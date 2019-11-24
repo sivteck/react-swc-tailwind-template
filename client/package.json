@@ -4,8 +4,9 @@
   "description": "Front-end for your web app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec \"npm run build && python3 -m http.server 8001 --directory build\"",
+    "start": "nodemon --exec \"npm run dev && python3 -m http.server 8001 --directory devBuild\"",
     "build": "babel src -d build && cp public/index.html build/",
+    "dev": "babel src -d devBuild && cp public/indexDev.html devBuild/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +25,8 @@
     ],
     "ext": "js, css",
     "ignore": [
-      "build"
+      "build",
+      "devBuild"
     ]
   },
   "devDependencies": {
