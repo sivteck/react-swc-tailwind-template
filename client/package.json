@@ -21,7 +21,7 @@
   "homepage": "https://github.com/sivteck/minimal-react-template#readme",
   "nodemonConfig": {
     "watch": [
-      "./"
+      "./src"
     ],
     "ext": "js, css",
     "ignore": [
@@ -30,10 +30,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0",
-    "nodemon": "^1.19.4"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.3"
   }
 }

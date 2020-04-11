@@ -1,7 +1,7 @@
 Minimal React Project Template
 ------------------------------
 
-Sets up React, React-DOM and Styled-Components by default
+Sets up React and React-DOM by default
 
 
 Uses Babel to compile JSX to JS
