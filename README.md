@@ -1,10 +1,10 @@
 Minimal React Project Template
 ------------------------------
 
-Sets up React and React-DOM by default
+Sets up React, React-DOM and taildwindcss by default
 
 
-Uses Babel to compile JSX to JS
+Uses swc to compile JSX to JS
 
 How to Use
 ----------
@@ -14,7 +14,7 @@ How to Use
 `npx degit sivteck/minimal-react-template my-react-project-name`
 
 
-`npm install` in `./client` folder to install devDependencies (babel, nodemon)
+`npm install` in `./client` folder to install devDependencies (swc, nodemon)
 
 ## Development
 
@@ -23,4 +23,3 @@ How to Use
 ## Production (no minification or bundling as of now)
 
 `npm run build` in `./client` folder to output build artifacts to `./client/build` folder
-
