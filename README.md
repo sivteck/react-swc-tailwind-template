@@ -1,17 +1,14 @@
-Minimal React Project Template
+React Project Template
 ------------------------------
 
-Sets up React, React-DOM and taildwindcss by default
-
-
-Uses swc to compile JSX to JS
+Sets up React, taildwindcss and swc by default
 
 How to Use
 ----------
 
 ## Intialize
 
-`npx degit sivteck/minimal-react-template my-react-project-name`
+`npx degit sivteck/react-swc-tailwind-template my-react-project-name`
 
 
 `npm install` in `./client` folder to install devDependencies (swc, nodemon)
@@ -23,3 +20,14 @@ How to Use
 ## Production (no minification or bundling as of now)
 
 `npm run build` in `./client` folder to output build artifacts to `./client/build` folder
+
+## What is bad?
+
+1. Not being able to use ES Modules yet.
+
+# TODO
+
+1. Setup tests
+2. Use postcss
+3. SSR
+4. Deploy to Cloudflare Workers and Heroku
